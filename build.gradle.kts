@@ -14,6 +14,8 @@ dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter")
 }
 
+apply(from = "${rootDir}/libraries.gradle")
+
 tasks.test {
     useJUnitPlatform()
 }
