@@ -1,0 +1,10 @@
+version: '3'
+services:
+  java-blocking:
+    build: ./java-blocking
+    ports:
+      - "8080:8080"
+  java-non-blocking:
+    build: ./java-non-blocking
+    ports:
+      - "8081:8081"
