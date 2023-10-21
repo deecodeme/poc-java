@@ -8,8 +8,8 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication
 @EnableFeignClients(clients = {DownstreamDummyFeignClient.class})
-public class Main {
+public class JavaBlockingApplication {
     public static void main(String[] args) {
-        SpringApplication.run(Main.class, args);
+        SpringApplication.run(JavaBlockingApplication.class, args);
     }
 }

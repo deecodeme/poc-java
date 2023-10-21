@@ -1,0 +1,5 @@
+server:
+    port: 8081
+
+baseurl:
+  java_blocking: http://java-blocking:8080
